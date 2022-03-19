@@ -5,7 +5,7 @@ var app = express();
 app.get('/', function (req, res) {
     res.send('f2343');
 });
-function getFrames(url) {
+
     
 app.get('/api/video-extraction', function (req, res) {
     var params = req.params;
